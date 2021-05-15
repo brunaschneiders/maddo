@@ -1,0 +1,42 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "react-hooks" 
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",  
+        "react-hooks/exhaustive-deps": "warn",
+        // disables the need for prop types, this project uses typescript
+        "react/prop-types": "off",
+        // disables the need to import react
+        "react/react-in-jsx-scope": "off",
+        // allows the most basic things to be typed automatically, being possible to type only what is essential
+        "@typescript-eslint/explicit-module-boundary-types": "off"  
+    },
+    "settings": {  
+        "react": {   
+            // when react plugins are used, it is necessary to identify their version
+            "version": "detect"  
+        }  
+    }  
+}

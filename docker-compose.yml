@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  web:
+    ports:
+      - 3000:3000
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
+  storybook:
+    ports:
+      - 6006:6006
+    build:
+      context: ./
+    command: yarn storybook
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
