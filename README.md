@@ -25,7 +25,7 @@ Neste projeto estão presentes as seguintes tecnologias:
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
 - [Git](https://git-scm.com);
-- [Node.js](https://nodejs.org/en/);
+- [Node.js](https://nodejs.org/en/): caso você opte por rodar a aplicação sem utilizar o docker, será necessária a sua instalação;
 - [Docker](https://www.docker.com/): caso você opte por rodar a aplicação utilizando o docker, será necessária a sua instalação;
 - [VSCode](https://code.visualstudio.com/): é bom ter um editor para trabalhar com o código como o Visua Studio Code.
 
@@ -49,7 +49,7 @@ $ yarn dev
 
 # Execute o storybook
 $ yarn storybook
-# O storybook será aberto na porta 6006 - acesse http://localhost:3000
+# O storybook será aberto na porta 6006 - acesse http://localhost:6006
 ```
 
 ### 🧭 Rodando a aplicação (com Docker)
