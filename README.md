@@ -2,7 +2,11 @@
 
 <p align="center"><b>Status: Em construção 🚧</b></p>
 
-## Features
+## 📄 Sobre
+
+## 🔝 Features
+
+Front-end desenvolvido seguindo o proposto no [Figma](https://www.figma.com/file/G15VvAoEhaE20qvtHFPAUg/Maddo?node-id=87%3A0). Autoria: [Bruna Schneiders](https://linkedin.com/in/bruna-schneiders)
 
 - [ ] Cadastro de usuário;
 - [ ] Login;
@@ -43,9 +47,7 @@ $ yarn install
 
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
-
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
 
 # Execute o storybook
 $ yarn storybook
