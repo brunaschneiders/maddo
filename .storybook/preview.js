@@ -5,7 +5,13 @@ import {ChakraProvider} from '@chakra-ui/react'
 
 import theme from '../src/styles/theme'
 
+export const parameters = {
+  layout: 'fullscreen',
+
+};
+
 export const decorators = [withNextRouter()]
+
 addDecorator(storyFn => (
   <ChakraProvider resetCSS theme={theme}>
     {storyFn()}
