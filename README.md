@@ -11,6 +11,9 @@ Front-end desenvolvido seguindo o proposto no [Figma](https://www.figma.com/file
 - [ ] Cadastro de usuário;
 - [ ] Login;
 
+- Responsive navbar
+  ![](20210617_215556.gif)
+
 ## 🛠 Tecnologias
 
 Neste projeto estão presentes as seguintes tecnologias:
